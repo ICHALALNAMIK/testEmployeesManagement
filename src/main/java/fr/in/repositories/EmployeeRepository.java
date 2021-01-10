@@ -8,4 +8,5 @@ import fr.in.entities.Employee;
 public interface EmployeeRepository extends MongoRepository<Employee, String>{
 
 Employee getEmployeeById(int id);
+
 }
